@@ -10,5 +10,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/bitzen-pet-app",
+  build: { chunkSizeWarningLimit: 1600 },
 });

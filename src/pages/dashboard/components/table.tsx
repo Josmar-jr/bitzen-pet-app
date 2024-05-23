@@ -17,10 +17,12 @@ export interface Pet {
 export function TableDemo() {
   const navigate = useNavigate();
 
-  const { petsQuery } = useManipulateData();
+  const { petsQuery, search } = useManipulateData();
   const petsData = petsQuery.data;
 
-  if (petsData?.data.total === 0 && !petsQuery.isLoading) {
+  const emptyList = petsData?.data.total === 0 && !petsQuery.isLoading && search === "";
+
+  if (emptyList) {
     return (
       <div className="gap-6 flex flex-col justify-center items-center w-full border rounded border-slate-200 py-12 px-8">
         <span className="border border-slate-200 rounded p-2 block">
