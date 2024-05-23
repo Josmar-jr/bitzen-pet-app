@@ -1,5 +1,5 @@
 <h1 align="center">
-    Pet app📍
+    Bitzen Pet 🐶
 </h1>
 
 <h4 align="center">
