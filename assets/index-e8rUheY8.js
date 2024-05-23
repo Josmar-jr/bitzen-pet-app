@@ -1,0 +1,1 @@
+import{j as a,d as n}from"./index-Cqs4L86y.js";function r(){return a.jsxs("div",{className:"",children:[a.jsx("h1",{children:"404 "}),a.jsx("h2",{children:"Pagina não encontrada"}),a.jsx(n,{to:"/",children:" Voltar para a pagina inicial"})]})}export{r as default};
